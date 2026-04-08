@@ -1,0 +1,5 @@
+project_name: memory-poisoning-persistence
+profile: contract-track
+quality_target: "8.0"
+research_type: computational
+target_venue: venue-security
