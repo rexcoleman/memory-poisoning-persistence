@@ -37,7 +37,7 @@
 
 **Project:** Memory Poisoning Persistence Bounds
 **Target venue:** Security-focused venue (Workshop/Tier 2)
-**Design lock commit:** TO BE SET
+**Design lock commit:** b2e869b
 **Design lock date:** 2026-04-08
 
 > **Gate 0.5 rule:** This document must be committed before any Phase 1 training script is executed. Any experiment output with a git timestamp before the lock commit is invalid for claims about pre-registered design.
