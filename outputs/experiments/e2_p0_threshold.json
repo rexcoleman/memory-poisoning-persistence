@@ -395,9 +395,10 @@
     }
   ],
   "h2_test": {
-    "transition_found": false,
-    "transition_width": null,
-    "sharp_transition": false,
-    "verdict": "INCONCLUSIVE"
+    "transition_found": true,
+    "transition_width": 0.0050000000000000044,
+    "transition_decay_rate": 0.9924999999999999,
+    "sharp_transition": true,
+    "verdict": "SUPPORTED"
   }
 }

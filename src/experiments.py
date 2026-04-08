@@ -278,20 +278,26 @@ def run_e2_p0_threshold(output_dir: Path) -> dict:
         })
 
     # H-2 test: Is there a sharp transition?
-    # Look for the decay rate where proportion_indefinite drops from >0.5 to <0.5
+    # Look for the decay rate where proportion_indefinite crosses 0.5 in either direction.
+    # As decay_rate increases (less decay), proportion_indefinite goes from 0 to 1.
     transition_found = False
     transition_width = None
+    transition_decay_rate = None
     for i in range(len(results["decay_sweep"]) - 1):
         curr = results["decay_sweep"][i]
         next_ = results["decay_sweep"][i + 1]
-        if curr["proportion_indefinite"] > 0.5 and next_["proportion_indefinite"] <= 0.5:
+        curr_indef = curr["proportion_indefinite"]
+        next_indef = next_["proportion_indefinite"]
+        # Detect crossing in either direction
+        if (curr_indef < 0.5 and next_indef >= 0.5) or (curr_indef > 0.5 and next_indef <= 0.5):
             transition_found = True
-            # Width = difference in decay rates at transition
             transition_width = abs(curr["decay_rate"] - next_["decay_rate"])
+            transition_decay_rate = (curr["decay_rate"] + next_["decay_rate"]) / 2
 
     results["h2_test"] = {
         "transition_found": transition_found,
         "transition_width": transition_width,
+        "transition_decay_rate": transition_decay_rate,
         "sharp_transition": transition_width is not None and transition_width < 0.1,
         "verdict": "SUPPORTED" if transition_found else "INCONCLUSIVE",
     }
