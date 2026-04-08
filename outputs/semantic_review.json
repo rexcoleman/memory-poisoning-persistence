@@ -1,34 +1,27 @@
 {
-  "date": "2026-04-08T05:54:26.975248",
+  "date": "2026-04-08T06:03:01.111858",
   "project": "/home/azureuser/memory-poisoning-persistence/",
   "status": "WARN",
   "fail": 0,
-  "warn": 1,
-  "info": 2,
+  "warn": 2,
+  "info": 0,
   "issues": [
     {
       "category": "reproducibility",
-      "severity": "INFO",
+      "severity": "WARN",
       "location": "EXPERIMENTAL_DESIGN.md, Section 3",
-      "detail": "The baseline MemGuard defense is described as having 'default parameters as published', but the specific publication is not cited. Without the source, it's unclear if the parameters are truly standardized or if there is flexibility in how MemGuard is configured.",
-      "suggestion": "Cite the specific MemGuard publication that defines the 'default' parameters, or provide the parameter values inline if the source is not easily accessible."
+      "detail": "The baseline methods do not appear to have the same hyperparameter tuning as the proposed method. For example, the 'Random decay baseline' uses a fixed decay rate of 0.995/hr, while the proposed method may explore different decay rates. This could lead to an unfair comparison.",
+      "suggestion": "Ensure that all baseline methods are tuned to the same degree as the proposed method, or at least justify why a particular configuration was chosen for the baselines."
     },
     {
       "category": "statistics",
       "severity": "WARN",
-      "location": "FINDINGS.md, Finding 2",
-      "detail": "The claim that poison_similarity and context_window_k have R^2=0.00 is qualified as a 'ceiling effect' due to the high default decay rate. This suggests the statistical analysis plan may not be fully aligned with the hypotheses, as these parameters could still be important at different decay rates.",
-      "suggestion": "Consider running additional experiments at lower decay rates to assess the full impact of poison_similarity and context_window_k, or acknowledge this as a limitation of the current study design."
-    },
-    {
-      "category": "placeholder",
-      "severity": "INFO",
-      "location": "FINDINGS.md, Executive Summary",
-      "detail": "The Executive Summary mentions a 'sharp phase transition' but does not provide a specific citation to the relevant experiment section. This makes it harder for readers to verify the claim.",
-      "suggestion": "Add a citation to the specific experiment section (e.g. 'as demonstrated in Finding 3') to help readers locate the supporting evidence."
+      "location": "FINDINGS.md, Section 'Key Findings'",
+      "detail": "The 'Important caveat' section suggests that the lack of variance in persistence for poison_similarity and context_window_k may be due to a ceiling effect at the default decay rate of 0.995. This implies that the statistical analysis may be incomplete, as these parameters could show more impact at different decay rates.",
+      "suggestion": "Consider running additional experiments at different decay rates to fully explore the impact of all parameters on persistence, or acknowledge the limitations of the current analysis more prominently."
     }
   ],
   "model": "claude-3-haiku-20240307",
-  "input_tokens": 4819,
-  "output_tokens": 539
+  "input_tokens": 4807,
+  "output_tokens": 386
 }

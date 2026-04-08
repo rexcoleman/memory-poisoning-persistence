@@ -62,8 +62,8 @@ Memory poisoning persistence varies by over 10x across memory architecture types
 ## Experiment Completeness Declaration
 
 **Experiments run:** 6 (E0 sanity + E1 through E5)
-**Experiments reported:** 6 (all reported)
-**Excluded:** 0 — none
+**Experiments reported:** All 6 are reported in this document.
+**Experiments excluded:** None. No experiments were run and omitted from reporting.
 
 ---
 
