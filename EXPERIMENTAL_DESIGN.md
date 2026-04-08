@@ -37,7 +37,7 @@
 
 **Project:** Memory Poisoning Persistence Bounds
 **Target venue:** Security-focused venue (Workshop/Tier 2)
-**Design lock commit:** b2e869b
+**Design lock commit:** 164ced2
 **Design lock date:** 2026-04-08
 
 > **Gate 0.5 rule:** This document must be committed before any Phase 1 training script is executed. Any experiment output with a git timestamp before the lock commit is invalid for claims about pre-registered design.
@@ -255,8 +255,8 @@
 | 8 | Alternative label sources considered | [x] | 2 alternatives considered and excluded with rationale |
 | 9 | Statistical plan: seeds, tests, CIs | [x] | 5 seeds, Mann-Whitney U, bootstrap CIs, Bonferroni |
 | 10 | Related work: >=N papers (N per venue tier) | [x] | 10 papers (exceeds Tier 2 minimum of 5) |
-| 11 | Hypotheses pre-registered in HYPOTHESIS_REGISTRY | [ ] | Next step |
-| 12 | lock_commit set in HYPOTHESIS_REGISTRY | [ ] | After hypotheses |
+| 11 | Hypotheses pre-registered in HYPOTHESIS_REGISTRY | [x] | 5 hypotheses (H-1 through H-5) |
+| 12 | lock_commit set in HYPOTHESIS_REGISTRY | [x] | lock_commit: 164ced2 |
 | 13 | Target venue identified | [x] | Security venue (Workshop/Tier 2) |
 | 14 | >=2 structurally diverse evaluation conditions specified (A3) | [x] | 3 structural dimensions |
 | 15 | Cross-domain validation protocol completed: principle + mapping + prediction + boundaries (A2) | [x] | Epidemiology SIR mapping completed |

@@ -22,9 +22,9 @@
 | Prediction | Actual | Delta | Learning |
 |---|---|---|---|
 | ED sections | 14 (§0-§13) | +3 sections | Template includes Phase 1 exit checkpoint, E0 sanity design, Phase 3 writing checklist beyond the §0-§10 referenced in prompt |
-| Hardest section | TBD | | |
-| Hypotheses | TBD | | |
-| Gate 0 flags | TBD | | |
+| Hardest section | §8c Generalization (A2 cross-domain protocol) | Wrong — predicted §8a Novelty | Novelty was straightforward once related work was gathered. The 4-step Gentner mapping (SIR to memory poisoning) required careful relational analysis. |
+| Hypotheses | 5 | Correct (predicted 4-5) | One per major parameter plus consolidation amplification |
+| Gate 0 flags | 6 FAIL + 4 WARN (1 design-doc FAIL fixed, 5 expected pre-code FAILs) | More FAILs than expected — predicted WARNs only | Gate script checks downstream artifacts (tests, reproduce.sh, figures, FINDINGS) as FAILs not WARNs |
 
 ---
 
