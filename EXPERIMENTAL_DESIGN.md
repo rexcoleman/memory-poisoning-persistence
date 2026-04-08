@@ -224,6 +224,23 @@
 
 ---
 
+## Threats to Validity
+
+### Internal Validity
+- **Simulation fidelity:** Our memory architecture simulations abstract away LLM reasoning. Real LLMs may process retrieved poisoned memories differently than our simulation assumes. Mitigation: Mem0 real-system validation (§8c, Simulation-to-Real plan).
+- **Embedding model choice:** Cosine similarity thresholds depend on the embedding model. Different models produce different similarity distributions. Mitigation: report results with threshold as a normalized percentile, not absolute cosine value.
+- **Query distribution:** Experiments use synthetic query streams. Real user queries are non-stationary and topic-clustered. Mitigation: test both uniform and bursty query distributions (Kill Shot #2).
+
+### External Validity
+- **Architecture coverage:** We test 4 architecture types. Production systems may use hybrid architectures not captured by our typology. Mitigation: the scorer accepts arbitrary parameter configurations, not just the 4 tested types.
+- **Attack vector generalization:** We use MINJA-style injection as the primary attack. Results may not transfer to other injection methods (e.g., indirect prompt injection via documents). Mitigation: H-1 explicitly tests whether architecture dominates attack vector.
+
+### Construct Validity
+- **Persistence definition:** We define persistence as "retrieval probability of poisoned memory > threshold after T interactions." Alternative definitions (e.g., behavioral influence on agent output) may yield different bounds. Mitigation: report both retrieval-based and influence-based measurements where feasible.
+- **P0 threshold sharpness:** The epidemiological R0 analogy assumes a sharp phase transition. Memory systems may exhibit gradual transitions. H-2 explicitly tests transition sharpness.
+
+---
+
 ## 9) Design Review Checklist (Gate 0.5)
 
 | # | Requirement | Status | Notes |
