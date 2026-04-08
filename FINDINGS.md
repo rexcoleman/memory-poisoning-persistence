@@ -75,7 +75,7 @@ Memory poisoning persistence varies by over 10x across memory architecture types
 **Phase:** CONFIRMATORY (pre-registered as H-1)
 **Qualifiers:** SYNTHETIC
 **Evidence:** `outputs/experiments/e1_architecture_comparison.json`
-**Metric:** Flat vector store: indefinite persistence (halflife=None, all 5 seeds). Episodic (decay=0.995): indefinite. Episodic (decay=0.99 in E2): halflife=380.2 steps (mean across 5 seeds). Recency: halflife=0.0 steps (immediate eviction). Max/min ratio: >10x (infinite/0 for flat_vector vs recency; 380.2/13.2 = 28.8x for episodic decay=0.99 vs decay=0.9).
+**Metric:** Flat vector store: indefinite persistence (halflife=None, all 5 seeds). Episodic (decay=0.995): indefinite (5/5 seeds). Episodic (decay=0.99 in E2): halflife=380.2 +/- 21.5 steps (mean +/- std, n=5 seeds). Episodic (decay=0.9): halflife=13.2 +/- 11.8 steps (n=5). Recency: halflife=0.0 +/- 0.0 steps (immediate eviction, n=5). Max/min ratio within episodic: 380.2/13.2 = 28.8x (decay=0.99 vs decay=0.9).
 **Hypothesis link:** H-1
 
 Using the same MINJA-style injection attack (5% poison rate, 0.85 similarity) across all 4 architecture types, persistence half-life ranges from 0 steps (recency — immediate eviction by newer entries) to indefinite (flat vector store — no decay mechanism). Within the episodic architecture alone, varying decay_rate from 0.9 to 0.999 produces half-lives from 13.2 to indefinite. This confirms that architecture parameters, not attack vector, are the primary determinant of persistence.
@@ -99,7 +99,7 @@ In a multivariate parameter sweep across 4 dimensions, the embedding similarity 
 **Phase:** CONFIRMATORY (pre-registered as H-2)
 **Qualifiers:** SYNTHETIC
 **Evidence:** `outputs/experiments/e2_p0_threshold.json`
-**Metric:** Transition width = 0.005 (between decay_rate=0.99 and 0.995). Below transition: halflife=380.2 (decay=0.99), 49.0 (decay=0.95), 13.2 (decay=0.9), 0.0 (decay=0.5 and below). Above transition: all seeds show indefinite persistence (proportion_indefinite=1.0 for decay>=0.995).
+**Metric:** Transition width = 0.005 (between decay_rate=0.99 and 0.995). Below transition: halflife=380.2 +/- 21.5 (decay=0.99, n=5), 49.0 +/- 26.6 (decay=0.95, n=5), 13.2 +/- 11.8 (decay=0.9, n=5), 0.0 +/- 0.0 (decay=0.5 and below). Above transition: all seeds show indefinite persistence (proportion_indefinite=1.0 for decay>=0.995, n=5).
 **Hypothesis link:** H-2
 
 A sharp phase transition separates decaying and indefinitely-persisting regimes. The transition occurs at decay_rate ≈ 0.9925 (midpoint of 0.99-0.995 interval). Below this threshold, poisoned memories decay with finite half-lives that decrease monotonically with decay rate. Above it, 100% of seeds show indefinite persistence. The transition width of 0.005 decay-rate units is sharp — a small configuration change flips behavior qualitatively. Note: the H-2 test originally reported INCONCLUSIVE due to a bug in the transition detection code (searched wrong direction). After fixing the bug and re-running, the transition was clearly present in the original data. Bug fix committed as 27466cb before FINDINGS.
