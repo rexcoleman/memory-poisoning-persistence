@@ -1,0 +1,247 @@
+python: 3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:28:48) [GCC 14.3.0]
+platform: linux
+
+# pip freeze
+-e git+https://github.com/rexcoleman/agent-skill-scanner.git@ef8eeb1bbc6775ec7f88231c1faf5c799302904e#egg=agent_skill_scanner
+aiofiles==25.1.0
+aiohappyeyeballs==2.6.1
+aiohttp==3.13.5
+aiosignal==1.4.0
+anaconda-anon-usage @ file:///opt/miniconda3/conda-bld/anaconda-anon-usage_1764636648062/work
+anaconda-auth @ file:///home/task_176583888028164/conda-bld/anaconda-cloud-auth-split_1765839818582/work
+anaconda-cli-base @ file:///home/task_176488869080098/conda-bld/anaconda-cli-base_1764888740587/work
+annotated-types @ file:///home/task_176174487847081/conda-bld/annotated-types_1761744928471/work
+anthropic==0.86.0
+anyio==4.12.1
+archspec @ file:///home/task_175812491784513/conda-bld/archspec_1758124989039/work
+asgi-csrf==0.11
+asgiref==3.11.1
+attrs==26.1.0
+bandit==1.9.4
+boltons==21.0.0
+boolean.py==5.0
+bracex==2.6
+brotlicffi @ file:///home/task_176496126124857/conda-bld/brotlicffi_1764961326114/work
+build==1.4.2
+CacheControl==0.14.4
+-e git+https://github.com/rexcoleman/model-tiered-cascade-benchmark.git@2b4e93567c658b9e9fdefdac52e82a3d23b98854#egg=cascade_bench
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1767500808759/work/certifi
+cffi @ file:///home/task_176183214835616/conda-bld/cffi_1761832774688/work
+chardet==5.2.0
+charset-normalizer @ file:///home/task_176174481524083/conda-bld/charset-normalizer_1761744828711/work
+click==8.1.8
+click-default-group==1.2.4
+click-option-group==0.5.9
+cloudpickle==3.1.2
+colorama==0.4.6
+conda @ file:///home/conda/feedstock_root/build_artifacts/conda_1770031336312/work/conda-src
+conda-anaconda-telemetry @ file:///croot/conda-anaconda-telemetry_1755883788794/work
+conda-anaconda-tos @ file:///croot/conda-anaconda-tos_1755123313635/work
+conda-content-trust @ file:///work/perseverance-python-buildout/croot/conda-content-trust_1728487058234/work
+conda-libmamba-solver @ file:///C:/miniconda3/conda-bld/conda-libmamba-solver_1764245615235/work/src
+conda-package-handling @ file:///home/task_176236637997838/conda-bld/conda-package-handling_1762366405159/work
+conda_package_streaming @ file:///home/task_176236152622180/conda-bld/conda-package-streaming_1762361633858/work
+contourpy==1.3.3
+-e git+https://github.com/rexcoleman/controllability-bound.git@b03c88bbadf1e52f70c70c5dd33879f6fa1546aa#egg=controllability_scorer
+coverage==7.13.5
+cryptography @ file:///home/task_176193173929288/conda-bld/cryptography-split_1761931963149/work
+cycler==0.12.1
+cyclonedx-python-lib==11.7.0
+DataProperty==1.1.0
+datasets==4.8.4
+datasette==0.65.2
+defusedxml==0.7.1
+dill==0.4.1
+distro @ file:///work/perseverance-python-buildout/croot/distro_1728396110052/work
+docstring_parser==0.17.0
+docutils==0.22.4
+dominate==2.9.1
+exceptiongroup==1.2.2
+face==26.0.0
+faiss-cpu==1.13.2
+Farama-Notifications==0.0.4
+feedparser==6.0.12
+filelock==3.20.0
+flexcache==0.3
+flexparser==0.4
+fonttools==4.62.1
+frozendict @ file:///home/task_176175049677026/conda-bld/frozendict_1761750665451/work
+frozenlist==1.8.0
+fsspec==2025.12.0
+glom==25.12.0
+googleapis-common-protos==1.73.1
+gymnasium==1.2.3
+h11==0.16.0
+hf-xet==1.4.3
+httpcore==1.0.9
+httpx==0.28.1
+httpx-sse==0.4.3
+huggingface_hub==1.9.0
+hupper==1.12.1
+id==1.6.1
+idna @ file:///home/task_176191175488988/conda-bld/idna_1761911981595/work
+importlib_metadata==8.7.1
+iniconfig==2.3.0
+itsdangerous==2.2.0
+janus==2.0.0
+jaraco.classes @ file:///croot/jaraco.classes_1755516327832/work
+jaraco.context @ file:///io/perseverance-python-buildout/croot/jaraco.context_1731706750665/work
+jaraco.functools @ file:///croot/jaraco.functools_1740408111753/work
+jeepney @ file:///tmp/build/80754af9/jeepney_1627537048313/work
+Jinja2==3.1.6
+jiter==0.13.0
+joblib==1.5.3
+jsonpatch @ file:///work/perseverance-python-buildout/croot/jsonpatch_1728399595941/work
+jsonpointer @ file:///croot/jsonpointer_1753788433671/work
+jsonschema==4.25.1
+jsonschema-specifications==2025.9.1
+keyring @ file:///home/task_176363713576885/conda-bld/keyring_1763637184857/work
+kiwisolver==1.5.0
+langchain==1.2.14
+langchain-core==1.2.23
+langgraph==1.1.4
+langgraph-checkpoint==4.0.1
+langgraph-prebuilt==1.0.8
+langgraph-sdk==0.3.12
+langsmith==0.7.23
+libmambapy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_libmambapy_1767884157/work/libmambapy
+license-expression==30.4.4
+lightgbm==4.6.0
+markdown-it-py @ file:///croot/markdown-it-py_1756299186942/work
+MarkupSafe==3.0.2
+matplotlib==3.10.8
+mbstrdecoder==1.1.4
+mcp==1.23.3
+mdurl @ file:///home/task_175855216352428/conda-bld/mdurl_1758552176751/work
+# Editable Git install with no remote (memory-poison-scorer==0.1.0)
+-e /home/azureuser/memory-poisoning-persistence
+menuinst @ file:///home/task_176538230483207/conda-bld/menuinst_1765382366331/work
+mergedeep==1.3.4
+more-itertools @ file:///home/task_176112148319406/conda-bld/more-itertools_1761121494880/work
+mpmath==1.3.0
+msgpack @ file:///croot/msgpack-python_1750958623279/work
+multidict==6.7.1
+multiprocess==0.70.19
+networkx==3.6.1
+nh3==0.3.4
+numpy==2.4.3
+nvidia-nccl-cu12==2.29.7
+opentelemetry-api==1.37.0
+opentelemetry-exporter-otlp-proto-common==1.37.0
+opentelemetry-exporter-otlp-proto-http==1.37.0
+opentelemetry-instrumentation==0.58b0
+opentelemetry-instrumentation-requests==0.58b0
+opentelemetry-instrumentation-threading==0.58b0
+opentelemetry-proto==1.37.0
+opentelemetry-sdk==1.37.0
+opentelemetry-semantic-conventions==0.58b0
+opentelemetry-util-http==0.58b0
+orjson==3.11.8
+ormsgpack==1.12.2
+-e git+https://github.com/rexcoleman/owasp-agent-bench.git@63de6e45fb269a1fc496714157245152219fc72c#egg=owasp_agent_bench
+packageurl-python==0.17.6
+packaging @ file:///home/task_176104878999627/conda-bld/packaging_1761049078606/work
+pandas==3.0.1
+pandoc==2.4
+pathvalidate==3.3.1
+peewee==3.19.0
+pillow==12.1.1
+pip-api==0.0.34
+pip-requirements-parser==32.0.1
+pip_audit==2.10.0
+pkce @ file:///work/perseverance-python-buildout/croot/pkce_1728388093137/work
+platformdirs @ file:///home/task_176235602006708/conda-bld/platformdirs_1762356487962/work
+pluggy @ file:///croot/pluggy_1733169602837/work
+plumbum==1.10.0
+ply==3.11
+prettytable==3.17.0
+propcache==0.4.1
+protobuf==6.33.6
+psutil==7.2.2
+py-serializable==2.1.0
+pyarrow==23.0.1
+pycosat @ file:///croot/pycosat_1736868416091/work
+pycparser @ file:///home/task_175749564936714/conda-bld/pycparser_1757496040682/work
+pydantic @ file:///home/task_176408303339170/conda-bld/pydantic_1764083529211/work
+pydantic-settings @ file:///home/task_176416496069032/conda-bld/pydantic-settings_1764165165402/work
+pydantic_core @ file:///home/task_176400924785639/conda-bld/pydantic-core_1764009747660/work
+Pygments @ file:///home/task_176243137807904/conda-bld/pygments_1762431407645/work
+PyJWT @ file:///home/task_176433208417911/conda-bld/pyjwt_1764332098101/work
+pyparsing==3.3.2
+PyPDF2==3.0.1
+pypistats==1.13.0
+pyproject_hooks==1.2.0
+PySocks @ file:///home/task_176175235884818/conda-bld/pysocks_1761753009495/work
+pytablewriter==1.2.1
+pytest==9.0.2
+pytest-cov==7.1.0
+python-dateutil==2.9.0.post0
+python-dotenv @ file:///croot/python-dotenv_1745610241282/work
+python-multipart==0.0.22
+python-slugify==8.0.4
+pytz==2026.1.post1
+PyYAML==6.0.3
+readchar @ file:///home/task_176061336965958/conda-bld/readchar_1760613437376/work
+readme_renderer==44.0
+referencing==0.37.0
+regex==2026.2.28
+requests @ file:///home/task_176235918788486/conda-bld/requests_1762359591632/work
+requests-toolbelt==1.0.0
+rfc3986==2.0.0
+rich @ file:///home/task_176037557612320/conda-bld/rich_1760375632000/work
+rpds-py==0.30.0
+ruamel.yaml @ file:///home/task_176253595903435/conda-bld/ruamel.yaml_1762535972567/work
+ruamel.yaml.clib @ file:///home/task_176253026438192/conda-bld/ruamel.yaml.clib_1762530278005/work
+safetensors==0.7.0
+scikit-learn==1.8.0
+scipy==1.17.1
+seaborn==0.13.2
+SecretStorage @ file:///home/task_175793143758247/conda-bld/secretstorage_1757931467244/work
+semantic-version==2.10.0
+semgrep==1.156.0
+semver @ file:///home/task_176190313959014/conda-bld/semver_1761903196627/work
+sentence-transformers==5.3.0
+setuptools==80.9.0
+sgmllib3k==1.0.0
+shellingham @ file:///home/task_176191203629823/conda-bld/shellingham_1761912204430/work
+six==1.17.0
+-e git+https://github.com/rexcoleman/agent-skill-scanner.git@ef8eeb1bbc6775ec7f88231c1faf5c799302904e#egg=skill_scanner
+smolagents==1.24.0
+sniffio==1.3.1
+sortedcontainers==2.4.0
+sse-starlette==3.3.4
+starlette==1.0.0
+stevedore==5.7.0
+sympy==1.14.0
+tabledata==1.3.4
+tcolorpy==0.1.7
+tenacity==9.1.4
+termcolor==3.3.0
+text-unidecode==1.3
+threadpoolctl==3.6.0
+tokenizers==0.22.2
+tomli==2.0.2
+tomli_w==1.2.0
+torch==2.10.0+cpu
+tqdm @ file:///home/task_176286304944547/conda-bld/tqdm_1762863349742/work
+transformers==5.3.0
+truststore @ file:///home/task_176252074050774/conda-bld/truststore_1762520903993/work
+twine==6.2.0
+typepy==1.3.4
+typer==0.20.0
+typer-slim==0.20.0
+typing-inspection @ file:///home/task_176061348700415/conda-bld/typing-inspection_1760614166875/work
+typing_extensions @ file:///croot/typing_extensions_1756280817316/work
+urllib3 @ file:///home/task_176539908095521/conda-bld/urllib3_1765399198587/work
+uuid_utils==0.14.1
+uvicorn==0.42.0
+wcmatch==8.5.2
+wcwidth==0.6.0
+wheel==0.45.1
+wrapt==1.17.3
+xgboost==3.2.0
+xxhash==3.6.0
+yarl==1.23.0
+youtube-transcript-api==1.2.4
+zipp==3.23.0
+zstandard @ file:///home/task_175818846949212/conda-bld/zstandard_1758189073015/work

@@ -1,0 +1,63 @@
+{
+  "generated": "2026-04-08T05:55:33Z",
+  "generator": "gen_provenance.py (G22)",
+  "outputs_dir": "/home/azureuser/memory-poisoning-persistence/outputs",
+  "files": [
+    {
+      "path": "outputs/quality_loop_report.json",
+      "sha256": "130b20f2f6b8f7555e8a1a24397615584b5c73e1fd0fe9ed1c293996d0dab9c0",
+      "size_bytes": 1883,
+      "modified": "2026-04-08T05:54:29Z"
+    },
+    {
+      "path": "outputs/semantic_review.json",
+      "sha256": "ffae2fd3a44c7f0cfb7461e8ef2d333f304e45daf5fdc813133016050f6f1cc2",
+      "size_bytes": 2000,
+      "modified": "2026-04-08T05:54:26Z"
+    },
+    {
+      "path": "outputs/experiments/e0_results.json",
+      "sha256": "1b48ccc61be6583ff7792a6aa5d63dab37371f8ca1dbb15abdfb2f8d5ae98914",
+      "size_bytes": 613,
+      "modified": "2026-04-08T05:36:07Z"
+    },
+    {
+      "path": "outputs/experiments/e1_architecture_comparison.json",
+      "sha256": "8f5ae4f050b6ddb521c43dad3f8c2b5c5d235f3c0fb804e45c0bac3dc92e8156",
+      "size_bytes": 14848,
+      "modified": "2026-04-08T05:37:17Z"
+    },
+    {
+      "path": "outputs/experiments/e2_p0_threshold.json",
+      "sha256": "203bc96634678516e06a9d430f4ca6c8edb19cdc135aac0a87e58f791bd5fa4e",
+      "size_bytes": 10573,
+      "modified": "2026-04-08T05:45:49Z"
+    },
+    {
+      "path": "outputs/experiments/e3_parameter_importance.json",
+      "sha256": "d419901b0271719b5e56042457a34ee5a157cda6a8cde604a592374add877596",
+      "size_bytes": 1409,
+      "modified": "2026-04-08T05:45:26Z"
+    },
+    {
+      "path": "outputs/experiments/e4_cross_domain_transfer.json",
+      "sha256": "ec467fef66ca348c50928093c539b63e7396860e1511d5a0b4df823d7a9821e0",
+      "size_bytes": 1064,
+      "modified": "2026-04-08T05:46:37Z"
+    },
+    {
+      "path": "outputs/experiments/e5_consolidation_amplification.json",
+      "sha256": "e04a2167c057efbefc45c886c2fe75d1889b9ed5a1f497a7ed58a76deb22a07d",
+      "size_bytes": 1591,
+      "modified": "2026-04-08T05:47:04Z"
+    },
+    {
+      "path": "outputs/experiments/summary.json",
+      "sha256": "24e16601cd483e2b8b0909ce07d82493b01e43cccbe9fceaf870065d0d1701d6",
+      "size_bytes": 122,
+      "modified": "2026-04-08T05:47:04Z"
+    }
+  ],
+  "total_files": 9,
+  "total_size_bytes": 34103
+}

@@ -1,0 +1,12 @@
+commit: ceebfe7c3734c36da75cd3d4e60e9ea415dd99cb
+branch: master
+dirty: yes (5 modified files)
+
+# git status --porcelain
+M DECISION_LOG.md
+ M outputs/quality_loop_report.json
+ M outputs/semantic_review.json
+?? FINDINGS_AUDIT_REPORT.md
+?? provenance/
+
+# no remotes configured
