@@ -264,7 +264,7 @@
 | 17 | Assumption challenged: field-held assumption named + >=2 papers + contradiction search (A8) | [x] | "Attack vector determines persistence" assumption challenged with 2 papers + contradiction search |
 | 18 | Compute resources documented: hardware, runtime, cost (A12) | [ ] | See §10 |
 
-**Gate 0.5 verdict:** [ ] PASS — pending items 11, 12, 16, 18 (will be resolved before Phase 1 compute).
+**Gate 0.5 verdict:** [ ] PASS — pending items 16, 18 (items 11, 12 completed; 16 will be resolved at lock_commit; 18 filled in §10 Compute Resources).
 
 ---
 

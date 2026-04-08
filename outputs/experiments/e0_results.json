@@ -1,0 +1,36 @@
+{
+  "experiment": "E0_sanity",
+  "checks": {
+    "E0a_positive_control": {
+      "pass": true,
+      "trace_min": 1.0,
+      "trace_max": 1.0,
+      "expected": "all 1.0"
+    },
+    "E0b_negative_control": {
+      "pass": true,
+      "trace_min": 0.0,
+      "trace_max": 0.0,
+      "expected": "all 0.0"
+    },
+    "E0c_dose_response": {
+      "pass": true,
+      "dose_rates": [
+        0.01,
+        0.05,
+        0.1,
+        0.25,
+        0.5
+      ],
+      "mean_persistence": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "monotonic": true
+    }
+  },
+  "verdict": "PASS"
+}

@@ -1,0 +1,47 @@
+{
+  "experiment": "E4_cross_domain_transfer",
+  "configs": [
+    {
+      "arch_type": "flat_vector",
+      "decay_rate": 0.0,
+      "predicted_p0": 2500000000.0,
+      "observed_halflife": 1000.0
+    },
+    {
+      "arch_type": "episodic",
+      "decay_rate": 0.99,
+      "predicted_p0": 24.99999999999998,
+      "observed_halflife": 380.2
+    },
+    {
+      "arch_type": "episodic",
+      "decay_rate": 0.995,
+      "predicted_p0": 49.99999999999996,
+      "observed_halflife": 1000.0
+    },
+    {
+      "arch_type": "episodic",
+      "decay_rate": 0.999,
+      "predicted_p0": 249.99999999999977,
+      "observed_halflife": 1000.0
+    },
+    {
+      "arch_type": "multi_layer",
+      "decay_rate": 0.995,
+      "predicted_p0": 55.55555555555551,
+      "observed_halflife": 1000.0
+    },
+    {
+      "arch_type": "recency",
+      "decay_rate": 0.0,
+      "predicted_p0": 125.0,
+      "observed_halflife": 0.0
+    }
+  ],
+  "h4_test": {
+    "spearman_rho": 0.30425553170226594,
+    "p_value": 0.5576993870568203,
+    "threshold": 0.8,
+    "verdict": "REFUTED"
+  }
+}

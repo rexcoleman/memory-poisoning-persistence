@@ -1,0 +1,62 @@
+{
+  "experiment": "E5_consolidation_amplification",
+  "comparisons": [
+    {
+      "seed": 42,
+      "episodic_halflife": null,
+      "multi_layer_halflife": null,
+      "episodic_final_persistence": 1.0,
+      "multi_layer_final_persistence": 1.0,
+      "episodic_p0": 49.99999999999996,
+      "multi_layer_p0": 55.55555555555551
+    },
+    {
+      "seed": 123,
+      "episodic_halflife": null,
+      "multi_layer_halflife": null,
+      "episodic_final_persistence": 1.0,
+      "multi_layer_final_persistence": 1.0,
+      "episodic_p0": 49.99999999999996,
+      "multi_layer_p0": 55.55555555555551
+    },
+    {
+      "seed": 456,
+      "episodic_halflife": null,
+      "multi_layer_halflife": null,
+      "episodic_final_persistence": 1.0,
+      "multi_layer_final_persistence": 1.0,
+      "episodic_p0": 49.99999999999996,
+      "multi_layer_p0": 55.55555555555551
+    },
+    {
+      "seed": 789,
+      "episodic_halflife": null,
+      "multi_layer_halflife": null,
+      "episodic_final_persistence": 1.0,
+      "multi_layer_final_persistence": 1.0,
+      "episodic_p0": 49.99999999999996,
+      "multi_layer_p0": 55.55555555555551
+    },
+    {
+      "seed": 1024,
+      "episodic_halflife": null,
+      "multi_layer_halflife": null,
+      "episodic_final_persistence": 1.0,
+      "multi_layer_final_persistence": 1.0,
+      "episodic_p0": 49.99999999999996,
+      "multi_layer_p0": 55.55555555555551
+    }
+  ],
+  "h5_test": {
+    "halflife_ratios": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean_ratio": 1.0,
+    "threshold": 2.0,
+    "verdict": "REFUTED"
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "experiment": "E2_p0_threshold",
+  "decay_sweep": [
+    {
+      "decay_rate": 0.0,
+      "effective_decay": 1.0,
+      "mean_p0": 0.25,
+      "mean_halflife": 0.0,
+      "proportion_indefinite": 0.0,
+      "seed_results": [
+        {
+          "seed": 42,
+          "halflife": 0.0,
+          "p0": 0.25,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": 0.9241962407465937
+        },
+        {
+          "seed": 123,
+          "halflife": 0.0,
+          "p0": 0.25,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": 0.9241962407465937
+        },
+        {
+          "seed": 456,
+          "halflife": 0.0,
+          "p0": 0.25,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": 0.9241962407465937
+        },
+        {
+          "seed": 789,
+          "halflife": 0.0,
+          "p0": 0.25,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": 0.9241962407465937
+        },
+        {
+          "seed": 1024,
+          "halflife": 0.0,
+          "p0": 0.25,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": 0.9241962407465937
+        }
+      ]
+    },
+    {
+      "decay_rate": 0.5,
+      "effective_decay": 0.5,
+      "mean_p0": 0.5,
+      "mean_halflife": 0.0,
+      "proportion_indefinite": 0.0,
+      "seed_results": [
+        {
+          "seed": 42,
+          "halflife": 0.0,
+          "p0": 0.5,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": 2.772588722239781
+        },
+        {
+          "seed": 123,
+          "halflife": 0.0,
+          "p0": 0.5,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": 2.772588722239781
+        },
+        {
+          "seed": 456,
+          "halflife": 0.0,
+          "p0": 0.5,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": 2.772588722239781
+        },
+        {
+          "seed": 789,
+          "halflife": 0.0,
+          "p0": 0.5,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": 2.772588722239781
+        },
+        {
+          "seed": 1024,
+          "halflife": 0.0,
+          "p0": 0.5,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": 2.772588722239781
+        }
+      ]
+    },
+    {
+      "decay_rate": 0.9,
+      "effective_decay": 0.09999999999999998,
+      "mean_p0": 2.5000000000000004,
+      "mean_halflife": 13.2,
+      "proportion_indefinite": 0.0,
+      "seed_results": [
+        {
+          "seed": 42,
+          "halflife": 14.0,
+          "p0": 2.5000000000000004,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.005600000000000001,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 123,
+          "halflife": 23.0,
+          "p0": 2.5000000000000004,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.009200000000000002,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 456,
+          "halflife": 29.0,
+          "p0": 2.5000000000000004,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.026,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 789,
+          "halflife": 0.0,
+          "p0": 2.5000000000000004,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 1024,
+          "halflife": 0.0,
+          "p0": 2.5000000000000004,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": null
+        }
+      ]
+    },
+    {
+      "decay_rate": 0.95,
+      "effective_decay": 0.050000000000000044,
+      "mean_p0": 4.999999999999996,
+      "mean_halflife": 49.0,
+      "proportion_indefinite": 0.0,
+      "seed_results": [
+        {
+          "seed": 42,
+          "halflife": 45.0,
+          "p0": 4.999999999999996,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.042,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 123,
+          "halflife": 69.0,
+          "p0": 4.999999999999996,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0276,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 456,
+          "halflife": 75.0,
+          "p0": 4.999999999999996,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0628,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 789,
+          "halflife": 56.0,
+          "p0": 4.999999999999996,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0224,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 1024,
+          "halflife": 0.0,
+          "p0": 4.999999999999996,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.0,
+          "predicted_halflife": null
+        }
+      ]
+    },
+    {
+      "decay_rate": 0.99,
+      "effective_decay": 0.010000000000000009,
+      "mean_p0": 24.99999999999998,
+      "mean_halflife": 380.2,
+      "proportion_indefinite": 0.0,
+      "seed_results": [
+        {
+          "seed": 42,
+          "halflife": 392.0,
+          "p0": 24.99999999999998,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.7827999999999999,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 123,
+          "halflife": 369.0,
+          "p0": 24.99999999999998,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.6212000000000001,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 456,
+          "halflife": 413.0,
+          "p0": 24.99999999999998,
+          "final_persistence": 0.004,
+          "mean_persistence": 0.8132,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 789,
+          "halflife": 378.0,
+          "p0": 24.99999999999998,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.786,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 1024,
+          "halflife": 349.0,
+          "p0": 24.99999999999998,
+          "final_persistence": 0.0,
+          "mean_persistence": 0.5648000000000001,
+          "predicted_halflife": null
+        }
+      ]
+    },
+    {
+      "decay_rate": 0.995,
+      "effective_decay": 0.0050000000000000044,
+      "mean_p0": 49.99999999999996,
+      "mean_halflife": null,
+      "proportion_indefinite": 1.0,
+      "seed_results": [
+        {
+          "seed": 42,
+          "halflife": null,
+          "p0": 49.99999999999996,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 123,
+          "halflife": null,
+          "p0": 49.99999999999996,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 456,
+          "halflife": null,
+          "p0": 49.99999999999996,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 789,
+          "halflife": null,
+          "p0": 49.99999999999996,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 1024,
+          "halflife": null,
+          "p0": 49.99999999999996,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        }
+      ]
+    },
+    {
+      "decay_rate": 0.999,
+      "effective_decay": 0.0010000000000000009,
+      "mean_p0": 249.99999999999977,
+      "mean_halflife": null,
+      "proportion_indefinite": 1.0,
+      "seed_results": [
+        {
+          "seed": 42,
+          "halflife": null,
+          "p0": 249.99999999999977,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 123,
+          "halflife": null,
+          "p0": 249.99999999999977,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 456,
+          "halflife": null,
+          "p0": 249.99999999999977,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 789,
+          "halflife": null,
+          "p0": 249.99999999999977,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 1024,
+          "halflife": null,
+          "p0": 249.99999999999977,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        }
+      ]
+    },
+    {
+      "decay_rate": 1.0,
+      "effective_decay": 1e-10,
+      "mean_p0": NaN,
+      "mean_halflife": null,
+      "proportion_indefinite": 1.0,
+      "seed_results": [
+        {
+          "seed": 42,
+          "halflife": null,
+          "p0": Infinity,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 123,
+          "halflife": null,
+          "p0": Infinity,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 456,
+          "halflife": null,
+          "p0": Infinity,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 789,
+          "halflife": null,
+          "p0": Infinity,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        },
+        {
+          "seed": 1024,
+          "halflife": null,
+          "p0": Infinity,
+          "final_persistence": 1.0,
+          "mean_persistence": 1.0,
+          "predicted_halflife": null
+        }
+      ]
+    }
+  ],
+  "h2_test": {
+    "transition_found": false,
+    "transition_width": null,
+    "sharp_transition": false,
+    "verdict": "INCONCLUSIVE"
+  }
+}
