@@ -1,20 +1,20 @@
 {
-  "date": "2026-04-08T05:59:06+00:00",
-  "project": "/home/azureuser/memory-poisoning-persistence/",
-  "score": 8.7,
+  "date": "2026-04-08T07:10:15+00:00",
+  "project": ".",
+  "score": -1,
   "threshold": 8.0,
-  "pass": 55,
+  "pass": 0,
   "fail": 0,
-  "warn": 8,
-  "total_checks": 63,
+  "warn": 0,
+  "total_checks": 0,
   "structural_gaps": 0,
-  "fixable_gaps": 8,
-  "action": "PASS",
-  "verdict": "PASS — score 8.7/10 meets 8/10 threshold",
-  "escalation_path": null,
+  "fixable_gaps": 6,
+  "action": "ESCALATE_TO_HUMAN",
+  "verdict": "INFRASTRUCTURE_FAILURE — gate output parsing returned 0 checks (score=-1)",
+  "escalation_path": "./outputs/quality_loop_report.json",
   "semantic_review": "WARN",
   "semantic_fails": 0,
-  "semantic_warns": 1,
+  "semantic_warns": 2,
   "profile": "contract-track",
   "govml_version": "",
   "gaps": [
@@ -23,8 +23,6 @@
     {"severity": "WARN", "classification": "FIXABLE", "message": "figure_style.py not imported in make_report_figures.py — use shared style for brand consistency", "fix_hint": "Generate figures via make_report_figures.py or add to blog/images/"},
     {"severity": "WARN", "classification": "FIXABLE", "message": "Figures may be stale — data files are newer than generated figures", "fix_hint": "Generate figures via make_report_figures.py or add to blog/images/"},
     {"severity": "WARN", "classification": "FIXABLE", "message": "reproduce.sh doesn't use nohup (R35 — add for jobs >5 min)", "fix_hint": ""},
-    {"severity": "WARN", "classification": "FIXABLE", "message": "No test_measurement* files (R46 — add for Tier 2+)", "fix_hint": ""},
-    {"severity": "WARN", "classification": "FIXABLE", "message": "No detection methodology discussion (R38 — required for binary detection experiments)", "fix_hint": "Add detection methodology discussion to FINDINGS.md"},
-    {"severity": "WARN", "classification": "FIXABLE", "message": "38 profile templates missing (run with --verbose for details)", "fix_hint": ""}
+    {"severity": "WARN", "classification": "FIXABLE", "message": "No test_measurement* files (R46 — add for Tier 2+)", "fix_hint": ""}
   ]
 }
