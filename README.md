@@ -1,6 +1,6 @@
-# Memory Poisoning Persistence Bounds
+# LLM Memory Poisoning Detection: Persistence Bounds for Agent Memory Attacks
 
-Formal characterization of when poisoned memories in LLM agents persist, decay, or amplify — as a computable function of memory architecture parameters.
+Formal characterization of when poisoned memories in LLM agents persist, decay, or amplify — as a computable function of memory architecture parameters. Provides a persistence number (P0) framework for detecting and predicting AI agent memory attack risk.
 
 ## Key Results
 
@@ -62,6 +62,8 @@ bash reproduce.sh
 This runs tests (52 passing), then all 6 experiments (E0-E5), and verifies output files. Expected runtime: ~1 minute on commodity hardware.
 
 ## Methodology
+
+Full methodology in [EXPERIMENTAL_DESIGN.md](EXPERIMENTAL_DESIGN.md). All results in [FINDINGS.md](FINDINGS.md).
 
 ### Memory Architectures Tested
 
