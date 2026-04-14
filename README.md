@@ -117,6 +117,13 @@ memory-poisoning-persistence/
 └── governance.yaml               # govML configuration
 ```
 
+## Related Work
+
+- [controllability-bound](https://github.com/rexcoleman/controllability-bound) — Defense difficulty decomposition into controllability and observability
+- [agent-semantic-resistance](https://github.com/rexcoleman/agent-semantic-resistance) — Semantic privilege escalation in LLM agents
+- [multi-agent-security](https://github.com/rexcoleman/multi-agent-security) — Cascade attacks in multi-agent systems
+- Blog post: [Model Fingerprinting](https://rexcoleman.dev/posts/model-fingerprinting/)
+
 ## Limitations
 
 - All experiments use synthetic simulations, not real LLM agents
