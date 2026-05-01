@@ -1,0 +1,56 @@
+{
+  "date": "2026-04-14T18:40:13+00:00",
+  "file": "/home/azureuser/memory-poisoning-persistence/README.md",
+  "word_count": 11,
+  "cycles": 3,
+  "total_issues": 0,
+  "cycle_data": [
+    {
+      "cycle": 1,
+      "angle": "standard_audit",
+      "ai_tells": 0,
+      "specificity_issues": 0,
+      "numeric_untraced": 0,
+      "caption_short": 0,
+      "fat_paragraphs": 0,
+      "rhythm_std_dev": 0.0,
+      "rhythm_status": "OK",
+      "hook_issues": 0,
+      "internal_tags": 0,
+      "freshness_missing": 0,
+      "total_issues": 0
+    },
+    {
+      "cycle": 2,
+      "angle": "reader_perspective",
+      "ai_tells": 0,
+      "specificity_issues": 0,
+      "numeric_untraced": 0,
+      "caption_short": 0,
+      "fat_paragraphs": 0,
+      "rhythm_std_dev": 0.0,
+      "rhythm_status": "OK",
+      "hook_issues": 0,
+      "internal_tags": 0,
+      "freshness_missing": 0,
+      "total_issues": 0
+    },
+    {
+      "cycle": 3,
+      "angle": "compression",
+      "ai_tells": 0,
+      "specificity_issues": 0,
+      "numeric_untraced": 0,
+      "caption_short": 0,
+      "fat_paragraphs": 0,
+      "rhythm_std_dev": 0.0,
+      "rhythm_status": "OK",
+      "hook_issues": 0,
+      "internal_tags": 0,
+      "freshness_missing": 0,
+      "total_issues": 0
+    }
+  ],
+  "structural_gaps": [{"gap": "missing_limitations", "message": "No Limitations section found"}],
+  "verdict": "CLEAN"
+}
